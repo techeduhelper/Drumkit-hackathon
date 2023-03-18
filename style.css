@@ -1,0 +1,126 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url(./img/pexels.jpg);
+  background-size: cover;
+  background-color: #333;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100vh;
+
+}
+h1{
+  margin-top: 10%;
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+
+}
+span{
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #fff;
+  text-transform: capitalize;
+}
+#drum-kit{
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+  
+}
+.drum {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bass-drum {
+    background-image: url('./img/images.jfif');
+    background-size: cover;
+  }
+  
+  .snare-drum {
+    background-image: url('snare-drum.png');
+    background-size: cover;
+  }
+  
+  .hi-hat {
+    background-image: url('./img/91PwSFskz3L._SL1500_.jpg');
+    background-size: cover;
+  }
+    .crash-cymbal {
+    background-image: url('./img/Roland.jpg');
+    background-size: cover;
+  }
+  .ride-cymbal {
+    background-image: url('./img/s-l500.jpg');
+    background-size: cover;
+  }
+
+  .ride-disco{
+    background-image: url('./img/360_F.jpg');
+    background-size: cover;
+  }
+
+  .hiphop{
+    width: 8rem;
+    height: 8rem;
+    background-color: aqua;
+    border-radius: 50%;
+    box-shadow: rgba(255, 0, 102, 0.35) 0px 5px 15px;
+  }
+
+  .cymbal {
+    width: 15rem;
+    height: 15rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: rgba(237, 202, 6, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  .tribal{
+    width: 15rem;
+    height: 15rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: rgba(237, 202, 6, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  
+  .pad{
+    width: 8rem;
+    height: 8rem;
+    background-color: #333;
+    cursor: pointer;
+    border-radius: 50%;margin-left: 1rem;
+    box-shadow: rgba(254, 119, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-image: url('./img/image.jfif');
+    background-size: cover;
+  }
+  .disco{
+    background-image: url('disco.png');
+    background-size: cover;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+    box-shadow: rgb(255, 0, 0) 0px 20px 30px -10px;
+    background-image: url('./img/360_F.jpg');
+    background-size: cover;
+  }
+
